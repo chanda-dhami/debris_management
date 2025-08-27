@@ -6,13 +6,15 @@ It provides real-time incident reporting, volunteer task assignment, resource tr
 Key highlights:
 
 ✅ Role-based access (Admin, Reporter, Volunteer, Coordinator, Viewer)
-
 ✅ Live incident & risk map with hotspot visualization
-
 ✅ Task assignment & progress tracking for volunteers
-
 ✅ Resource inventory management
-
 ✅ Emergency alerts (SMS/WhatsApp) integration
-
 ✅ Preloaded hospitals, shelters, and demo data
+
+Tech Stack
+Backend: Flask (Python)
+Frontend: Jinja2 templates + Leaflet.js (for maps)
+Database: SQLite3
+Alerts: Twilio API (SMS/WhatsApp)
+Other: HTML5, CSS3, JavaScript
